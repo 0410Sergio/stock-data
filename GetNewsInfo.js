@@ -8,7 +8,7 @@ let stockPick = process.argv[2]
 const options = {
   hostname: 'financialmodelingprep.com',
   port: 443,
-  path: '/api/v3/stock_news?tickers=' + stockPick + '&limit=5&apikey=a473e0f250e7cb20e678f8034f556a8a',
+  path: '/api/v3/stock_news?tickers=' + stockPick + '&limit=5&apikey=*********************',
   method: 'GET'
 }
 
